@@ -1,0 +1,21 @@
+{
+    "name": "wxpayv3/php-wx",
+    "type": "library",
+    "description": "微信SDK",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "weixin",
+            "homepage": "https://pay.weixin.qq.com/wiki/doc"
+        }
+    ],
+    "autoload": {
+      "files": [
+        "lib/WxPay.Api.php",
+        "lib/WxPay.Config.php",
+        "lib/WxPay.Data.php",
+        "lib/WxPay.Exception.php",
+        "lib/WxPay.Notify.php"
+      ]
+    }
+}
